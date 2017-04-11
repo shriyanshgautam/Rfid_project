@@ -1,0 +1,7 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=6B454B8C
+eax=FFCACCA8 ebx=036FCC08 ecx=770277E4 edx=00000000 esi=200659EC edi=FFCAFFE8
+ebp=FFCACDC8 esp=FFCACCC0 program=C:\Users\LENOVO PC\workspace\rfid4\Debug\rfid4.exe, pid 4760, thread unknown (0x27AC)
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args
+End of stack trace
