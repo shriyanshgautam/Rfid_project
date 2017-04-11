@@ -49,8 +49,6 @@ using namespace std;
 
 string ips[] = {"192.168.0.238","192.168.0.239"};
 
- int device_count = sizeof( ips ) / sizeof(string);
-
  void *hp[100];
 
 //void *hp;
@@ -249,7 +247,7 @@ int main()
 
     //string ips[] = {"192.168.0.238","192.168.0.239"};
 
-    //int device_count = sizeof( ips ) / sizeof(string);
+    int device_count = sizeof( ips ) / sizeof(string);
 
     //void *hp[device_count];
 
@@ -264,12 +262,12 @@ int main()
 
 
   	for(index=0;index<device_count;index++){
-  	   // close_connection(hp[index],string_to_char(ips[index]),index);
+  	   close_connection(hp[index],string_to_char(ips[index]),index);
   	}
 
 
 
-  	// close_network();
+  	close_network();
 
 
 	/*if(initialise_connection(&hp,string_to_char(ips[1]),RFID_PORT) ){
